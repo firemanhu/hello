@@ -1,0 +1,20 @@
+{
+    "name": "fuju/123",
+    "description": "123456",
+    "type": "library",
+    "require-dev": {
+        "firebase/token-generator": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "hu jun",
+            "email": "438973518@qq.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+    "require": {}
+}
